@@ -22,7 +22,7 @@ namespace MotoBuilder
             vehicleCreator.CreateVehicle();
             vehicle = vehicleCreator.GetVehicle();
             vehicle.ShowInfo();
-
+            vehicle.ShowInfo();
             Console.ReadKey();
         }
     }
