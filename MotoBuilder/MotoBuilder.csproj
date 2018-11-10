@@ -43,18 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteBuilder.cs" />
-    <Compile Include="Director.cs" />
+    <Compile Include="Theorie\ConcreteBuilder.cs" />
+    <Compile Include="Theorie\Director.cs" />
     <Compile Include="ExMoto\HeroBuilder.cs" />
     <Compile Include="ExMoto\HondaBuilder.cs" />
     <Compile Include="ExMoto\Prog.cs" />
+    <Compile Include="Quizz\Process.cs" />
+    <Compile Include="Quizz\QuizzBuilder.cs" />
     <Compile Include="ExMoto\Vehicle.cs" />
     <Compile Include="ExMoto\VehicleCreator.cs" />
-    <Compile Include="IBuilder.cs" />
+    <Compile Include="Theorie\IBuilder.cs" />
     <Compile Include="ExMoto\IVehicleBuilder.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Theorie\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quizz\IQuizzBuilder.cs" />
+    <Compile Include="Quizz\Question.cs" />
+    <Compile Include="Quizz\Quizz.cs" />
+    <Compile Include="Quizz\QuizzCreator.cs" />
+    <Compile Include="Quizz\QuizzResponseRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
